@@ -200,5 +200,156 @@ footer ul li {
 }
 
 
+@media (max-width: 1024px) {
+  .main-container {
+    width: 90%;
+  }
+  
+  .about-container {
+  
+    width: 100%;
+  }
+  
+  .description, .group-pic {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .group-pic img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .members-section {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 5px;
+  }
+  .card img{
+    width: 200px;
+  }
+
+  
+  .carousel {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav img {
+  height: 40px;
+}
+
+  .wallpaper {
+    height: 300px;
+  }
+  
+  .about-container {
+    width: 100%;
+  }
+  
+  .about-button, .album-button {
+    width: 50%;
+  }
+
+  
+.members-section {
+  width: 100%;
+  text-align: center;
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.card {
+  width: 200px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-size: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 5px;
+}
+.card img{
+  width: 200px
+};
+  
+  .carousel-button {
+    padding: 5px;
+  }
+  
+ 
+}
+
+@media (max-width: 480px) {
+  .about-button, .album-button {
+    width: 50%;
+  }
+  nav {
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+  }
+  
+  nav ul {
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .wallpaper {
+    height: 200px;
+  }
+  
+  .footer-icons {
+    gap: 20px;
+  }
+  footer ul li {
+    display: inline-block;
+    margin-right: 20%;
+  }
+  
+}
+
 
 
