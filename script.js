@@ -1,3 +1,13 @@
+
+  
+  
+
+
+
+
+
+
+
 let currentSlide = 0;
 const slides = document.querySelectorAll('.carousel-slide');
 const track = document.querySelector('.carousel-track');

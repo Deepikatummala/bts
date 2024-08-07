@@ -33,6 +33,7 @@ nav img {
   height: 40px;
 }
 
+
 .wallpaper {
   background-image: url(bts.jpeg);
   width: 100%;
@@ -129,7 +130,8 @@ nav img {
   border-radius: 10px;
   display: flex;
   align-items: center;
-  height: 400px;
+  height: 200px;
+  justify-content: center;
 }
 
 .carousel-track {
@@ -145,9 +147,9 @@ nav img {
 }
 
 .carousel-slide img {
-  width: 100%;
+  width: 80%;
   border-radius: 10px;
-  height: 400px;
+  height: 200px;
 }
 
 .carousel-button {
@@ -278,9 +280,7 @@ nav img {
     width: 100%;
   }
   
-  .about-button, .album-button {
-    width: 50%;
-  }
+ 
 
   
 .members-section {
@@ -317,29 +317,61 @@ nav img {
  
 }
 
+
+
+
 @media (max-width: 480px) {
-  .about-button, .album-button {
-    width: 50%;
-  }
+
   nav {
-   display: flex;
-   justify-content: center;
-   gap: 40px;
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
   }
+  .nav-ul {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+  .about-container{
+    flex-direction: column;
+  }
+
   
-  nav ul {
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
   
   .wallpaper {
     height: 200px;
   }
+    
+.members-section {
+  width: 100%;
+  text-align: center;
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.card {
+  width: 100px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-size: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 5px;
+}
+.card img{
+  width: 100px
+};
   
   .footer-icons {
     gap: 20px;
